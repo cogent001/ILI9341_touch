@@ -1,0 +1,32 @@
+# ESP-IDF build output
+build/
+managed_components/
+
+# sdkconfig backups/generated variants (keep the main sdkconfig)
+sdkconfig.old
+sdkconfig.bak
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+
+# Compiled / object files
+*.o
+*.obj
+*.elf
+*.bin
+*.map
+*.d
+
+# IDE / editor
+.vscode/
+.vs/
+*.user
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Log files
+*.log
